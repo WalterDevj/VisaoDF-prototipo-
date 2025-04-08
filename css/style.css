@@ -33,6 +33,7 @@ nav {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  cursor: pointer;
 }
 
 /* Botão do menu (sempre visível) */
@@ -250,6 +251,7 @@ header {
   flex-wrap: wrap;
   padding: 30px 10%;
   gap: 30px;
+  cursor: pointer;
 }
 .reportagem img {
   max-width: 300px;
@@ -263,6 +265,11 @@ header {
   padding: 20px 10%;
   gap: 30px;
 }
+
+.notic{
+  cursor: pointer;
+}
+
 .categoria {
   flex: 1 1 300px;
   background-color: #f4f0f8;
